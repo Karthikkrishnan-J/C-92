@@ -1,0 +1,19 @@
+.background{
+    background-color: rgba(123, 255, 0, 0.664);
+}     
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+width: 60%;
+}
+#player1_name , #player2_name , #player1_score , #player2_score
+{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+}

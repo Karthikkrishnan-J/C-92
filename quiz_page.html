@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Quizez</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+
+<body class="background">
+
+    <div class="conatiner">
+            <h4 id="player1_name"></h4><span id="player1_score"></span>
+            <h4 id="player2_name"></h4><span id="player2_score"></span>
+        <center>
+            <h2 style="color: rgb(255, 89, 0);">Math Quiz Time!!!!</h2>
+            <h3 >Question Turn- <span id="questionTurn"></span></h3>
+            <h3 >Answer Turn- <span id="answerTurn"></span></h3>
+            <div id="output"></div>
+            <h3>Number 1</h3>
+            <br>
+            <input style="width: 70%;" type="number" id="number1" placeholder="Write Number 1" class="form-control">
+            <br>
+            <h3>Number 2</h3>
+            <br>
+            <input style="width: 70%;" type="number" id="number2" placeholder="Write Number 2" class="form-control">
+            <br><br>
+            <button
+                style="width: 30%; background-color:rgba(255, 0, 234, 0.648); color:cyan; font-size: 20px;   border-width: 9px; border-color:darkblue;"
+                onclick="Send()">Send</button>
+        </center>
+    </div>
+
+    <script src="game_page.js"></script>
+</body>
+
+</html>
